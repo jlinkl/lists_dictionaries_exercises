@@ -13,6 +13,11 @@ for stop in stops:
         print(count)
     count += 1
 #5. Remove "Livingston" from the list using its name
+num = 0
+for stop in stops:
+    if stop == "Livingston":
+        stops.remove("Livingston")
+    num += 1
 #6. Delete "Cumbernauld" from the list by index
 #7. Print the number of stops there are in the list
 #8. Sort the list alphabetically
