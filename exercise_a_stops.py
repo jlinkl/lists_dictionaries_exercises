@@ -1,3 +1,6 @@
+from audioop import reverse
+
+
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 #1. Add "Edinburgh Waverley" to the end of the list
@@ -21,5 +24,6 @@ print(len(stops))
 #8. Sort the list alphabetically
 stops = sorted(stops)
 #9. Reverse the positions of the stops in the list
+stops.reverse()
 #10 Print out all the stops using a for loop
 
