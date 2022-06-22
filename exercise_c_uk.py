@@ -35,3 +35,6 @@ total_population = 0
 for country in united_kingdom:
   total_population += country["population"]
 print(total_population)
+
+for country in united_kingdom:
+  country["currency"] = "dollars"
